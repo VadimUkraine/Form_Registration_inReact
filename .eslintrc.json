@@ -1,0 +1,42 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb",
+      "prettier/react"
+    ],
+
+    "plugins": ["react", "prettier"],
+
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "indent": 2,
+        "comma-dangle": [2, "only-multiline"],
+        "semicolons": true,
+        "react/jsx-filename-extension": [1, {"extensions": [".js", "config/*.js"]}],
+        "jsx-a11y/anchor-is-valid": "off",
+        "import/prefer-default-export": "off",
+        "arrow-parens":"off",
+        "react/prop-types": 0,
+        "no-unused-vars":"off",
+        "no-unused-state": "off",
+        "no-plusplus":"off",
+        "consistent-return":"off",
+        "no-param-reassign":"off",
+        "no-confusing-arrow":"off",
+        "no-tabs":"off",
+        "global-require":"off",
+        "object-curly-newline":"off",
+        "import/no-dynamic-require": "off",
+        "react/prefer-stateless-function":"off",
+        "prefer-destructuring":"off",
+        "react/no-did-mount-set-state":"off",
+        "click-events-have-key-events": "off",
+        "no-static-element-interactions": "off",
+        "one-var":"off",
+        "prettier/prettier": ["warn", { "singleQuote": true, "arrowParens": "always"}]
+    }
+}
